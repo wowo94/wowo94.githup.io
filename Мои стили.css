@@ -1,0 +1,29 @@
+body {
+	background-image: url(11.jpg);
+}
+#test{
+	transform: scale(0.3);
+	transition: 2s all;
+	
+	background-color: #fff;
+	color: #333;
+	padding: 75px;
+	padding-top: 50px;
+	margin: 15px;
+	border: 7px solid #19a7ff;
+	border-radius: 100px;
+	opacity: 0.5;
+	box-shadow: 23px 13px 7px black;
+	height: 300px;
+	display:block;
+	text-align:center;
+	font-size:25px;
+	font-weight: 900;
+}
+
+#test:hover{
+	color: #ffffff;
+	transform:  scale(1);
+	background-color: blue;
+	opacity: 1;
+}
